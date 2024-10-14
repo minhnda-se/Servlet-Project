@@ -1,0 +1,272 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 27, 2024, 11:28:33 AM
+    Author     : user
+*/
+
+
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .logo a img {
+        max-width: 110px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main_menu {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .main_menu {
+        display: none;
+    }
+}
+
+.main_menu nav > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.main_menu nav > ul > li {
+    position: relative;
+    flex-shrink: 0;
+}
+.main_menu nav > ul > li:hover ul.sub_menu {
+    visibility: visible;
+    max-height: 300px;
+    /*    padding: 24px 30px;*/
+}
+.main_menu nav > ul > li:hover .mega_menu {
+    visibility: visible;
+    max-height: 450px;
+    border-radius: 3px;
+    padding: 0 30px;
+}
+
+.main_menu nav > ul > li:hover > a {
+    color: #B2997F;
+}
+.main_menu nav > ul > li > a {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 23px;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+    color: #fff;
+}
+.main_menu nav > ul > li > a i {
+    margin-left: 3px;
+}
+.main_menu nav > ul > li > a.active {
+    color: #B2997F;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .main_menu nav > ul > li > a {
+        padding: 10px 15px;
+    }
+}
+.main_menu nav > ul > li ul.sub_menu {
+    position: absolute;
+    min-width: 215px;
+    padding: 0 30px;
+    background: #fff;
+    box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+    max-height: 0;
+    transform-origin: 0 0 0;
+    left: 0;
+    right: auto;
+    visibility: hidden;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 99;
+    top: 100%;
+    text-align: left;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.main_menu nav > ul > li ul.sub_menu li a {
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+.main_menu nav > ul > li ul.sub_menu li a:hover {
+    color: #B2997F;
+}
+
+.main_menu nav > ul > li.mega_items {
+    position: static;
+}
+
+.main_menu nav > ul > li .mega_menu {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+    max-height: 0;
+    transform-origin: 0 0 0;
+    right: auto;
+    visibility: hidden;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 99;
+    top: 100%;
+    text-align: Left;
+}
+
+.menu_two nav > ul {
+    justify-content: center;
+}
+.menu_two nav > ul > li:hover > a {
+    color: #F0E68C;
+}
+
+.menu_two nav > ul > li > a {
+    padding: 10px 20px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .menu_two nav > ul > li > a {
+        padding: 10px 14px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .menu_two nav > ul > li > a {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .menu_two nav > ul > li > a i {
+        margin-left: 1px;
+    }
+}
+
+.menu_two nav > ul > li > a.active {
+    color: #F0E68C;
+}
+
+.menu_two nav > ul > li ul.sub_menu li a:hover {
+    color: #F0E68C;
+}
+
+body {
+    background: #f5f5f5;
+    margin-top: 20px;
+}
+
+.ui-w-80 {
+    width : 80px !important;
+    height: auto;
+}
+
+.btn-default {
+    border-color: rgba(24, 28, 33, 0.1);
+    background  : rgba(0, 0, 0, 0);
+    color       : #4E5155;
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+
+.btn-outline-primary {
+    border-color: #26B4FF;
+    background  : transparent;
+    color       : #26B4FF;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.text-light {
+    color: #000  !important;
+}
+
+.btn-facebook {
+    border-color: rgba(0, 0, 0, 0);
+    background  : #3B5998;
+    color       : #fff;
+}
+
+.btn-instagram {
+    border-color: rgba(0, 0, 0, 0);
+    background  : #000;
+    color       : #fff;
+}
+
+.card {
+    background-clip: padding-box;
+    box-shadow     : 0 1px 4px rgba(24, 28, 33, 0.012);
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position  : absolute;
+    visibility: hidden;
+    width     : 1px;
+    height    : 1px;
+    opacity   : 0;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+}
+
+.account-settings-multiselect~.select2-container {
+    width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.material-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.dark-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark-style .account-settings-links .list-group-item.active {
+    color: #fff !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+

@@ -1,0 +1,1 @@
+gamestore.dto.ValidData

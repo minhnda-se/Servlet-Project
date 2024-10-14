@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/UserUpdateServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/htmlhead.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/profile.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/OrderList.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/orderItemList.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/LoginServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/SearchServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/DeleteGameServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/dto/OrderDTO.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/AddCartServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/SearchUsers.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/ProductAD.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/CheckOrderServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/CheckOut.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/dao/OrderDAO.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/view_cart.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/dto/Constants.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/CheckOutServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/ChangeUserRoleServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/controller/MainController.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/header.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/addgame.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/RegisterServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/LoginGoogleServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/servlets/SearchUsersServlet.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/orderList.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/ChangeRole.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/db/ValidData.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/adminpage.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/dao/CartDAO.java</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/web/login.jsp</file>
+            <file>file:/D:/FPT%20University/Semester%204/PRJ/GameStore/src/java/gamestore/dto/ItemDTO.java</file>
+        </group>
+    </open-files>
+</project-private>
